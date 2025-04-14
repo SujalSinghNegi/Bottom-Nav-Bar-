@@ -4,7 +4,7 @@
 implementation("nl.joery.animatedbottombar:library:1.1.0")
 
 ## Add this in activity_main.xml
-
+```
 <nl.joery.animatedbottombar.AnimatedBottomBar
         android:id="@+id/bottom_bar"
         android:layout_width="match_parent"
@@ -20,8 +20,9 @@ implementation("nl.joery.animatedbottombar:library:1.1.0")
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-
+```
 ## Create menu dir in res, and in that create tabs.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
@@ -41,3 +42,4 @@ implementation("nl.joery.animatedbottombar:library:1.1.0")
         android:icon="@drawable/cart"
         android:title="cart" />
 </menu>
+```
